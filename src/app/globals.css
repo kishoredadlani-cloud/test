@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Light — parchment, saffron, crimson, gold */
+  --c-bg: 250 243 224;
+  --c-surface: 255 251 240;
+  --c-ink: 61 31 20;
+  --c-muted: 125 92 74;
+  --c-saffron: 214 99 15;
+  --c-crimson: 140 21 21;
+  --c-gold: 168 120 10;
+  --c-line: 226 207 170;
+  --scale: 1;
+}
+.dark {
+  /* Dark — deep slate/indigo, muted gold */
+  --c-bg: 16 19 36;
+  --c-surface: 25 29 52;
+  --c-ink: 234 226 206;
+  --c-muted: 160 160 184;
+  --c-saffron: 238 150 70;
+  --c-crimson: 228 120 120;
+  --c-gold: 205 172 84;
+  --c-line: 52 58 92;
+}
+
+html { scroll-behavior: auto; }
+body {
+  background: rgb(var(--c-bg));
+  color: rgb(var(--c-ink));
+  font-family: var(--font-body), Lora, Georgia, serif;
+  -webkit-font-smoothing: antialiased;
+}
+body::before { /* faint mandala-like glow */
+  content: ""; position: fixed; inset: 0; pointer-events: none; z-index: -1;
+  background:
+    radial-gradient(60rem 30rem at 50% -10%, rgb(var(--c-saffron) / 0.10), transparent 70%),
+    radial-gradient(40rem 30rem at 100% 100%, rgb(var(--c-gold) / 0.07), transparent 70%);
+}
+
+:focus-visible { outline: 2px solid rgb(var(--c-saffron)); outline-offset: 2px; border-radius: 6px; }
+::selection { background: rgb(var(--c-saffron) / 0.3); }
+
+@layer components {
+  .deva { font-family: "Noto Serif Devanagari", "Sanskrit Text", Mangal, "Nirmala UI", serif; line-height: 1.85; }
+  .iast { font-style: italic; }
+  .btn {
+    @apply inline-flex items-center justify-center gap-1.5 rounded-lg border border-line bg-surface px-3 py-1.5 text-sm text-ink
+      transition-colors hover:border-gold hover:text-crimson disabled:opacity-40;
+  }
+  .btn-icon { @apply inline-flex h-9 w-9 items-center justify-center rounded-lg text-muted transition-colors hover:bg-gold/10 hover:text-crimson; }
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-sm transition-colors select-none;
+  }
+  .chip[aria-pressed="true"] { @apply border-saffron bg-saffron/15 text-crimson font-medium; }
+  .chip[aria-pressed="false"] { @apply border-line text-muted hover:border-gold; }
+  .card { @apply rounded-2xl border border-line bg-surface/80 shadow-sm; }
+}
+
+/* highlight flash for jump targets */
+@keyframes flash { 0%,60% { box-shadow: 0 0 0 3px rgb(var(--c-saffron) / 0.7); } 100% { box-shadow: 0 0 0 0 transparent; } }
+.flash { animation: flash 2.4s ease-out; }
+
+input[type="range"] { accent-color: rgb(var(--c-saffron)); }
+@media (prefers-reduced-motion: reduce) { .flash { animation: none; outline: 2px solid rgb(var(--c-saffron)); } }
