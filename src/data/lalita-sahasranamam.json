@@ -1,0 +1,1217 @@
+{
+  "meta": {
+    "title": "Śrī Lalitā Sahasranāma",
+    "titleDevanagari": "श्रीललितासहस्रनाम",
+    "source": "Brahmāṇḍa Purāṇa (Lalitopākhyāna)",
+    "commentaryTradition": "Bhāskararāya, Saubhāgya-bhāskara (paraphrased)",
+    "schemaVersion": 1,
+    "expectedNamaCount": 1000,
+    "expectedMukhyaShlokaCount": 182,
+    "note": "Seed dataset: Dhyānam + Namas 1–26 (Shlokas 1–10). Use `npm run data:merge` to add the rest."
+  },
+  "sections": [
+    {
+      "id": "purva-peethika",
+      "title": "Pūrva Pīṭhikā",
+      "titleDevanagari": "पूर्वपीठिका",
+      "description": "Dhyānam and introductory verses",
+      "shlokas": [
+        {
+          "id": "pp-1",
+          "section": "purva-peethika",
+          "shlokaNumber": 1,
+          "label": "Dhyānam 1",
+          "devanagari": "सिन्दूरारुणविग्रहां त्रिनयनां माणिक्यमौलिस्फुरत्\nतारानायकशेखरां स्मितमुखीमापीनवक्षोरुहाम् ।\nपाणिभ्यामलिपूर्णरत्नचषकं रक्तोत्पलं बिभ्रतीं\nसौम्यां रत्नघटस्थरक्तचरणां ध्यायेत्परामम्बिकाम् ॥",
+          "iast": "sindūrāruṇavigrahāṃ trinayanāṃ māṇikyamaulisphurat\ntārānāyakaśekharāṃ smitamukhīmāpīnavakṣoruhām |\npāṇibhyāmalipūrṇaratnacaṣakaṃ raktotpalaṃ bibhratīṃ\nsaumyāṃ ratnaghaṭastharaktacaraṇāṃ dhyāyetparāmambikām ||",
+          "englishTranslation": "Let one meditate on the Supreme Mother: her body red as vermilion, three-eyed, her ruby-studded crown crested with the crescent moon, her face softly smiling, her bosom full. In her hands she bears a jewelled cup brimming with nectar and a red lotus; gentle in aspect, her red feet rest upon a jewelled pot.",
+          "namaIds": []
+        },
+        {
+          "id": "pp-2",
+          "section": "purva-peethika",
+          "shlokaNumber": 2,
+          "label": "Dhyānam 2",
+          "devanagari": "अरुणां करुणातरङ्गिताक्षीं\nधृतपाशाङ्कुशपुष्पबाणचापाम् ।\nअणिमादिभिरावृतां मयूखैर्\nअहमित्येव विभावये भवानीम् ॥",
+          "iast": "aruṇāṃ karuṇātaraṅgitākṣīṃ\ndhṛtapāśāṅkuśapuṣpabāṇacāpām |\naṇimādibhirāvṛtāṃ mayūkhair\nahamityeva vibhāvaye bhavānīm ||",
+          "englishTranslation": "I contemplate Bhavānī, the dawn-red Mother, her eyes rippling with compassion, holding the noose, the goad, the flower-arrows and the bow, encircled by the rays of Aṇimā and the other siddhis — contemplating her as “I am She.”",
+          "namaIds": []
+        },
+        {
+          "id": "pp-3",
+          "section": "purva-peethika",
+          "shlokaNumber": 3,
+          "label": "Dhyānam 3",
+          "devanagari": "ध्यायेत्पद्मासनस्थां विकसितवदनां पद्मपत्रायताक्षीं\nहेमाभां पीतवस्त्रां करकलितलसद्धेमपद्मां वराङ्गीम् ।\nसर्वालङ्कारयुक्तां सततमभयदां भक्तनम्रां भवानीं\nश्रीविद्यां शान्तमूर्तिं सकलसुरनुतां सर्वसम्पत्प्रदात्रीम् ॥",
+          "iast": "dhyāyetpadmāsanasthāṃ vikasitavadanāṃ padmapatrāyatākṣīṃ\nhemābhāṃ pītavastrāṃ karakalitalasaddhemapadmāṃ varāṅgīm |\nsarvālaṅkārayuktāṃ satatamabhayadāṃ bhaktanamrāṃ bhavānīṃ\nśrīvidyāṃ śāntamūrtiṃ sakalasuranutāṃ sarvasampatpradātrīm ||",
+          "englishTranslation": "Let one meditate on Bhavānī — Śrīvidyā — seated on a lotus, her face in full bloom, her eyes long as lotus petals, golden-hued and robed in yellow, a shining golden lotus in her hand; fair of limb, adorned with every ornament, ever bestowing fearlessness, gracious to those who bow to her, serene in form, praised by all the gods, giver of every prosperity.",
+          "namaIds": []
+        }
+      ]
+    },
+    {
+      "id": "mukhya-bhaga",
+      "title": "Mukhya Bhāga",
+      "titleDevanagari": "मुख्यभाग",
+      "description": "The main stotra — the 1,000 names",
+      "shlokas": [
+        {
+          "id": "mb-1",
+          "section": "mukhya-bhaga",
+          "shlokaNumber": 1,
+          "devanagari": "श्रीमाता श्रीमहाराज्ञी श्रीमत्सिंहासनेश्वरी ।\nचिदग्निकुण्डसम्भूता देवकार्यसमुद्यता ॥",
+          "iast": "śrīmātā śrīmahārājñī śrīmatsiṃhāsaneśvarī |\ncidagnikuṇḍasambhūtā devakāryasamudyatā ||",
+          "englishTranslation": "The auspicious Mother; the great Empress; Sovereign of the splendid lion-throne; born from the fire-pit of pure consciousness; intent on accomplishing the work of the gods.",
+          "namaIds": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "id": "mb-2",
+          "section": "mukhya-bhaga",
+          "shlokaNumber": 2,
+          "devanagari": "उद्यद्भानुसहस्राभा चतुर्बाहुसमन्विता ।\nरागस्वरूपपाशाढ्या क्रोधाकाराङ्कुशोज्ज्वला ॥",
+          "iast": "udyadbhānusahasrābhā caturbāhusamanvitā |\nrāgasvarūpapāśāḍhyā krodhākārāṅkuśojjvalā ||",
+          "englishTranslation": "Radiant as a thousand rising suns; endowed with four arms; rich with the noose that is desire; shining with the goad that is wrath.",
+          "namaIds": [
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "id": "mb-3",
+          "section": "mukhya-bhaga",
+          "shlokaNumber": 3,
+          "devanagari": "मनोरूपेक्षुकोदण्डा पञ्चतन्मात्रसायका ।\nनिजारुणप्रभापूरमज्जद्ब्रह्माण्डमण्डला ॥",
+          "iast": "manorūpekṣukodaṇḍā pañcatanmātrasāyakā |\nnijāruṇaprabhāpūramajjadbrahmāṇḍamaṇḍalā ||",
+          "englishTranslation": "Her bow of sugarcane is the mind; her arrows are the five subtle elements; the flood of her own red radiance bathes the entire sphere of the cosmos.",
+          "namaIds": [
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "id": "mb-4",
+          "section": "mukhya-bhaga",
+          "shlokaNumber": 4,
+          "devanagari": "चम्पकाशोकपुन्नागसौगन्धिकलसत्कचा ।\nकुरुविन्दमणिश्रेणीकनत्कोटीरमण्डिता ॥",
+          "iast": "campakāśokapunnāgasaugandhikalasatkacā |\nkuruvindamaṇiśreṇīkanatkoṭīramaṇḍitā ||",
+          "englishTranslation": "Her hair gleams with campaka, aśoka, punnāga and saugandhika blossoms; she is adorned with a crown ablaze with rows of ruby-gems.",
+          "namaIds": [
+            13,
+            14
+          ]
+        },
+        {
+          "id": "mb-5",
+          "section": "mukhya-bhaga",
+          "shlokaNumber": 5,
+          "devanagari": "अष्टमीचन्द्रविभ्राजदलिकस्थलशोभिता ।\nमुखचन्द्रकलङ्काभमृगनाभिविशेषका ॥",
+          "iast": "aṣṭamīcandravibhrājadalikasthalaśobhitā |\nmukhacandrakalaṅkābhamṛganābhiviśeṣakā ||",
+          "englishTranslation": "Her forehead shines like the half-moon of the eighth lunar day; the musk-mark upon it is like the dark spot on the moon of her face.",
+          "namaIds": [
+            15,
+            16
+          ]
+        },
+        {
+          "id": "mb-6",
+          "section": "mukhya-bhaga",
+          "shlokaNumber": 6,
+          "devanagari": "वदनस्मरमाङ्गल्यगृहतोरणचिल्लिका ।\nवक्त्रलक्ष्मीपरीवाहचलन्मीनाभलोचना ॥",
+          "iast": "vadanasmaramāṅgalyagṛhatoraṇacillikā |\nvaktralakṣmīparīvāhacalanmīnābhalocanā ||",
+          "englishTranslation": "Her brows are festive archways at the gate of the auspicious house of Kāma that is her face; her eyes are like fish darting in the overflowing stream of her facial beauty.",
+          "namaIds": [
+            17,
+            18
+          ]
+        },
+        {
+          "id": "mb-7",
+          "section": "mukhya-bhaga",
+          "shlokaNumber": 7,
+          "devanagari": "नवचम्पकपुष्पाभनासादण्डविराजिता ।\nताराकान्तितिरस्कारिनासाभरणभासुरा ॥",
+          "iast": "navacampakapuṣpābhanāsādaṇḍavirājitā |\ntārākāntitiraskārināsābharaṇabhāsurā ||",
+          "englishTranslation": "Graced with a nose like a fresh campaka bud; shining with a nose-jewel that outshines the stars.",
+          "namaIds": [
+            19,
+            20
+          ]
+        },
+        {
+          "id": "mb-8",
+          "section": "mukhya-bhaga",
+          "shlokaNumber": 8,
+          "devanagari": "कदम्बमञ्जरीकॢप्तकर्णपूरमनोहरा ।\nताटङ्कयुगलीभूततपनोडुपमण्डला ॥",
+          "iast": "kadambamañjarīkḷptakarṇapūramanoharā |\ntāṭaṅkayugalībhūtatapanoḍupamaṇḍalā ||",
+          "englishTranslation": "Captivating with ear-ornaments of kadamba blossom-clusters; the discs of the sun and moon serve as her twin ear-rings.",
+          "namaIds": [
+            21,
+            22
+          ]
+        },
+        {
+          "id": "mb-9",
+          "section": "mukhya-bhaga",
+          "shlokaNumber": 9,
+          "devanagari": "पद्मरागशिलादर्शपरिभाविकपोलभूः ।\nनवविद्रुमबिम्बश्रीन्यक्कारिरदनच्छदा ॥",
+          "iast": "padmarāgaśilādarśaparibhāvikapolabhūḥ |\nnavavidrumabimbaśrīnyakkāriradanacchadā ||",
+          "englishTranslation": "Her cheeks surpass a mirror of ruby; her lips put to shame the beauty of fresh coral and of the bimba fruit.",
+          "namaIds": [
+            23,
+            24
+          ]
+        },
+        {
+          "id": "mb-10",
+          "section": "mukhya-bhaga",
+          "shlokaNumber": 10,
+          "devanagari": "शुद्धविद्याङ्कुराकारद्विजपङ्क्तिद्वयोज्ज्वला ।\nकर्पूरवीटिकामोदसमाकर्षिदिगन्तरा ॥",
+          "iast": "śuddhavidyāṅkurākāradvijapaṅktidvayojjvalā |\nkarpūravīṭikāmodasamākarṣidigantarā ||",
+          "englishTranslation": "Brilliant with two rows of teeth like the sprouts of Śuddhavidyā; the fragrance of her camphor-scented betel draws in every quarter of space.",
+          "namaIds": [
+            25,
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phala-shruti",
+      "title": "Phala Śruti",
+      "titleDevanagari": "फलश्रुति",
+      "description": "Concluding verses on the fruits of recitation",
+      "shlokas": []
+    }
+  ],
+  "namas": [
+    {
+      "id": 1,
+      "shlokaNumber": 1,
+      "devanagari": "श्रीमाता",
+      "iast": "Śrīmātā",
+      "mantraForm": "Oṃ Śrīmātre Namaḥ",
+      "mantraFormDevanagari": "ॐ श्रीमात्रे नमः",
+      "meaning": "The Auspicious Mother",
+      "wordBreakdown": [
+        {
+          "devanagari": "श्री",
+          "iast": "śrī",
+          "meaning": "auspiciousness, splendour, Lakṣmī"
+        },
+        {
+          "devanagari": "माता",
+          "iast": "mātā",
+          "meaning": "mother"
+        }
+      ],
+      "commentary": "The stotra opens with motherhood itself. In the traditional reading the first three names trace the three cosmic functions — śrīmātā for creation (Srishti), śrīmahārājñī for sustenance (Sthiti), and śrīmatsiṃhāsaneśvarī for dissolution (Saṃhāra). “Mātā” is also read as “she who measures out (mā) the universe”, the power by which the formless Brahman takes measure and name.",
+      "categoryTags": [
+        "Srishti",
+        "subtle-form"
+      ]
+    },
+    {
+      "id": 2,
+      "shlokaNumber": 1,
+      "devanagari": "श्रीमहाराज्ञी",
+      "iast": "Śrīmahārājñī",
+      "mantraForm": "Oṃ Śrīmahārājñyai Namaḥ",
+      "mantraFormDevanagari": "ॐ श्रीमहाराज्ञ्यै नमः",
+      "meaning": "The Great Empress",
+      "wordBreakdown": [
+        {
+          "devanagari": "श्री",
+          "iast": "śrī",
+          "meaning": "auspicious, glorious"
+        },
+        {
+          "devanagari": "महा",
+          "iast": "mahā",
+          "meaning": "great"
+        },
+        {
+          "devanagari": "राज्ञी",
+          "iast": "rājñī",
+          "meaning": "queen, empress"
+        }
+      ],
+      "commentary": "Having created as Mother, she now rules as sovereign — the sustaining, governing aspect (Sthiti). Her empire is the whole manifest cosmos, and her rule is not conquest but the natural order held in place by her will. The adjective “great” marks her as sovereign even over the sovereigns, Brahmā, Viṣṇu and Rudra among them.",
+      "categoryTags": [
+        "Sthiti",
+        "sovereignty"
+      ]
+    },
+    {
+      "id": 3,
+      "shlokaNumber": 1,
+      "devanagari": "श्रीमत्सिंहासनेश्वरी",
+      "iast": "Śrīmatsiṃhāsaneśvarī",
+      "mantraForm": "Oṃ Śrīmatsiṃhāsaneśvaryai Namaḥ",
+      "mantraFormDevanagari": "ॐ श्रीमत्सिंहासनेश्वर्यै नमः",
+      "meaning": "Sovereign of the splendid lion-throne",
+      "wordBreakdown": [
+        {
+          "devanagari": "श्रीमत्",
+          "iast": "śrīmat",
+          "meaning": "splendid, endowed with śrī"
+        },
+        {
+          "devanagari": "सिंहासन",
+          "iast": "siṃhāsana",
+          "meaning": "lion-throne"
+        },
+        {
+          "devanagari": "ईश्वरी",
+          "iast": "īśvarī",
+          "meaning": "ruler, mistress"
+        }
+      ],
+      "commentary": "She is enthroned on the Siṃhāsana. The tradition reads the throne esoterically — its supports are the great deities and its seat the Sadāśiva-tattva — so that the seat of power is itself the whole creative-dissolving apparatus. Completing the triad, the one who sits above all is the one into whom all finally withdraws (Saṃhāra).",
+      "categoryTags": [
+        "Samhara",
+        "sovereignty",
+        "gross-form"
+      ]
+    },
+    {
+      "id": 4,
+      "shlokaNumber": 1,
+      "devanagari": "चिदग्निकुण्डसम्भूता",
+      "iast": "Cidagnikuṇḍasambhūtā",
+      "mantraForm": "Oṃ Cidagnikuṇḍasambhūtāyai Namaḥ",
+      "mantraFormDevanagari": "ॐ चिदग्निकुण्डसम्भूतायै नमः",
+      "meaning": "Born from the fire-pit of pure consciousness",
+      "wordBreakdown": [
+        {
+          "devanagari": "चित्",
+          "iast": "cit",
+          "meaning": "pure consciousness"
+        },
+        {
+          "devanagari": "अग्नि",
+          "iast": "agni",
+          "meaning": "fire"
+        },
+        {
+          "devanagari": "कुण्ड",
+          "iast": "kuṇḍa",
+          "meaning": "sacrificial pit"
+        },
+        {
+          "devanagari": "सम्भूता",
+          "iast": "sambhūtā",
+          "meaning": "arisen, born"
+        }
+      ],
+      "commentary": "Outwardly this recalls the Purāṇic account of the gods' great sacrifice from whose fire she appeared. Inwardly, the fire-pit is Cit itself and the sacrifice is the offering of the whole world into awareness; she is not produced by an act but is the self-luminous flame of consciousness. Practitioners also relate the “pit” to the Kuṇḍalinī locus, where the same fire is kindled in sādhana.",
+      "categoryTags": [
+        "Kundalini",
+        "Srishti",
+        "subtle-form"
+      ]
+    },
+    {
+      "id": 5,
+      "shlokaNumber": 1,
+      "devanagari": "देवकार्यसमुद्यता",
+      "iast": "Devakāryasamudyatā",
+      "mantraForm": "Oṃ Devakāryasamudyatāyai Namaḥ",
+      "mantraFormDevanagari": "ॐ देवकार्यसमुद्यतायै नमः",
+      "meaning": "Ever intent on accomplishing the work of the gods",
+      "wordBreakdown": [
+        {
+          "devanagari": "देव",
+          "iast": "deva",
+          "meaning": "gods"
+        },
+        {
+          "devanagari": "कार्य",
+          "iast": "kārya",
+          "meaning": "task, work"
+        },
+        {
+          "devanagari": "समुद्यता",
+          "iast": "samudyatā",
+          "meaning": "fully engaged, ready"
+        }
+      ],
+      "commentary": "Her appearance has a purpose: to restore the gods' rightful order (in the narrative, by destroying Bhaṇḍāsura). Read inwardly, the “gods” are the presiding powers of the senses and faculties, and “their work” is the liberation of the individual; she is always poised to act for it. The name thus ends the first verse by tying her majesty to compassion.",
+      "categoryTags": [
+        "compassion",
+        "gross-form"
+      ]
+    },
+    {
+      "id": 6,
+      "shlokaNumber": 2,
+      "devanagari": "उद्यद्भानुसहस्राभा",
+      "iast": "Udyadbhānusahasrābhā",
+      "mantraForm": "Oṃ Udyadbhānusahasrābhāyai Namaḥ",
+      "mantraFormDevanagari": "ॐ उद्यद्भानुसहस्राभायै नमः",
+      "meaning": "Radiant as a thousand rising suns",
+      "wordBreakdown": [
+        {
+          "devanagari": "उद्यत्",
+          "iast": "udyat",
+          "meaning": "rising"
+        },
+        {
+          "devanagari": "भानु",
+          "iast": "bhānu",
+          "meaning": "sun"
+        },
+        {
+          "devanagari": "सहस्र",
+          "iast": "sahasra",
+          "meaning": "thousand"
+        },
+        {
+          "devanagari": "आभा",
+          "iast": "ābhā",
+          "meaning": "lustre"
+        }
+      ],
+      "commentary": "The description of her form begins with light. The sun at dawn is red rather than harsh, so the simile conveys both overwhelming brilliance and a gentle, motherly red (aruṇa), the colour the dhyāna verses insist upon.",
+      "categoryTags": [
+        "gross-form",
+        "radiance"
+      ]
+    },
+    {
+      "id": 7,
+      "shlokaNumber": 2,
+      "devanagari": "चतुर्बाहुसमन्विता",
+      "iast": "Caturbāhusamanvitā",
+      "mantraForm": "Oṃ Caturbāhusamanvitāyai Namaḥ",
+      "mantraFormDevanagari": "ॐ चतुर्बाहुसमन्वितायै नमः",
+      "meaning": "Endowed with four arms",
+      "wordBreakdown": [
+        {
+          "devanagari": "चतुर्",
+          "iast": "catur",
+          "meaning": "four"
+        },
+        {
+          "devanagari": "बाहु",
+          "iast": "bāhu",
+          "meaning": "arm"
+        },
+        {
+          "devanagari": "समन्विता",
+          "iast": "samanvitā",
+          "meaning": "endowed with"
+        }
+      ],
+      "commentary": "Her four arms hold the noose, goad, bow and arrows (named in the next two verses). Traditionally the four arms are also read as the four Vedas, the four goals of life (puruṣārthas), or the four inner faculties — mind, intellect, ego and memory — each held in her service.",
+      "categoryTags": [
+        "gross-form",
+        "iconography"
+      ]
+    },
+    {
+      "id": 8,
+      "shlokaNumber": 2,
+      "devanagari": "रागस्वरूपपाशाढ्या",
+      "iast": "Rāgasvarūpapāśāḍhyā",
+      "mantraForm": "Oṃ Rāgasvarūpapāśāḍhyāyai Namaḥ",
+      "mantraFormDevanagari": "ॐ रागस्वरूपपाशाढ्यायै नमः",
+      "meaning": "Rich with the noose that is desire",
+      "wordBreakdown": [
+        {
+          "devanagari": "राग",
+          "iast": "rāga",
+          "meaning": "attachment, desire"
+        },
+        {
+          "devanagari": "स्वरूप",
+          "iast": "svarūpa",
+          "meaning": "in the form of"
+        },
+        {
+          "devanagari": "पाश",
+          "iast": "pāśa",
+          "meaning": "noose"
+        },
+        {
+          "devanagari": "आढ्या",
+          "iast": "āḍhyā",
+          "meaning": "abounding in, rich with"
+        }
+      ],
+      "commentary": "The noose in her upper left hand is Rāga: the pull of love and desire by which she binds the world to itself and draws the devotee toward her. The same power that binds ordinary beings becomes, once turned toward the Mother, the cord that draws the seeker home.",
+      "categoryTags": [
+        "gross-form",
+        "iconography",
+        "subtle-form"
+      ]
+    },
+    {
+      "id": 9,
+      "shlokaNumber": 2,
+      "devanagari": "क्रोधाकाराङ्कुशोज्ज्वला",
+      "iast": "Krodhākārāṅkuśojjvalā",
+      "mantraForm": "Oṃ Krodhākārāṅkuśojjvalāyai Namaḥ",
+      "mantraFormDevanagari": "ॐ क्रोधाकाराङ्कुशोज्ज्वलायै नमः",
+      "meaning": "Shining with the goad that is wrath",
+      "wordBreakdown": [
+        {
+          "devanagari": "क्रोध",
+          "iast": "krodha",
+          "meaning": "anger, wrath"
+        },
+        {
+          "devanagari": "आकार",
+          "iast": "ākāra",
+          "meaning": "form"
+        },
+        {
+          "devanagari": "अङ्कुश",
+          "iast": "aṅkuśa",
+          "meaning": "goad, elephant-hook"
+        },
+        {
+          "devanagari": "उज्ज्वला",
+          "iast": "ujjvalā",
+          "meaning": "blazing, shining"
+        }
+      ],
+      "commentary": "The goad in her upper right hand is Krodha — not personal rage but the force that checks and corrects, as a mahout's hook restrains an elephant. The noose draws; the goad restrains: together they are her twofold means of governing the mind.",
+      "categoryTags": [
+        "gross-form",
+        "iconography",
+        "subtle-form"
+      ]
+    },
+    {
+      "id": 10,
+      "shlokaNumber": 3,
+      "devanagari": "मनोरूपेक्षुकोदण्डा",
+      "iast": "Manorūpekṣukodaṇḍā",
+      "mantraForm": "Oṃ Manorūpekṣukodaṇḍāyai Namaḥ",
+      "mantraFormDevanagari": "ॐ मनोरूपेक्षुकोदण्डायै नमः",
+      "meaning": "Whose sugarcane bow is the mind",
+      "wordBreakdown": [
+        {
+          "devanagari": "मनस्",
+          "iast": "manas",
+          "meaning": "mind"
+        },
+        {
+          "devanagari": "रूप",
+          "iast": "rūpa",
+          "meaning": "form"
+        },
+        {
+          "devanagari": "इक्षु",
+          "iast": "ikṣu",
+          "meaning": "sugarcane"
+        },
+        {
+          "devanagari": "कोदण्ड",
+          "iast": "kodaṇḍa",
+          "meaning": "bow"
+        }
+      ],
+      "commentary": "Her bow is sweet sugarcane — the mind, whose nature is sweet yet pliant and which is drawn taut between sankalpa and vikalpa. By holding the mind as her bow she reveals that the faculty which scatters the unliberated is, in her hand, an instrument of grace.",
+      "categoryTags": [
+        "gross-form",
+        "iconography",
+        "subtle-form"
+      ]
+    },
+    {
+      "id": 11,
+      "shlokaNumber": 3,
+      "devanagari": "पञ्चतन्मात्रसायका",
+      "iast": "Pañcatanmātrasāyakā",
+      "mantraForm": "Oṃ Pañcatanmātrasāyakāyai Namaḥ",
+      "mantraFormDevanagari": "ॐ पञ्चतन्मात्रसायकायै नमः",
+      "meaning": "Whose arrows are the five subtle elements",
+      "wordBreakdown": [
+        {
+          "devanagari": "पञ्च",
+          "iast": "pañca",
+          "meaning": "five"
+        },
+        {
+          "devanagari": "तन्मात्र",
+          "iast": "tanmātra",
+          "meaning": "subtle element (sound, touch, form, taste, smell)"
+        },
+        {
+          "devanagari": "सायक",
+          "iast": "sāyaka",
+          "meaning": "arrow"
+        }
+      ],
+      "commentary": "Her five flower-arrows are the five tanmātras — śabda, sparśa, rūpa, rasa and gandha — the subtle essences from which the senses and the gross elements arise. They are the “flowers” with which she pierces the heart of the world; the whole sensory universe is her gentle weaponry.",
+      "categoryTags": [
+        "gross-form",
+        "iconography",
+        "subtle-form"
+      ]
+    },
+    {
+      "id": 12,
+      "shlokaNumber": 3,
+      "devanagari": "निजारुणप्रभापूरमज्जद्ब्रह्माण्डमण्डला",
+      "iast": "Nijāruṇaprabhāpūramajjadbrahmāṇḍamaṇḍalā",
+      "mantraForm": "Oṃ Nijāruṇaprabhāpūramajjadbrahmāṇḍamaṇḍalāyai Namaḥ",
+      "mantraFormDevanagari": "ॐ निजारुणप्रभापूरमज्जद्ब्रह्माण्डमण्डलायै नमः",
+      "meaning": "Whose own red radiance floods and bathes the whole sphere of the cosmos",
+      "wordBreakdown": [
+        {
+          "devanagari": "निज",
+          "iast": "nija",
+          "meaning": "her own"
+        },
+        {
+          "devanagari": "अरुण",
+          "iast": "aruṇa",
+          "meaning": "red"
+        },
+        {
+          "devanagari": "प्रभा",
+          "iast": "prabhā",
+          "meaning": "radiance"
+        },
+        {
+          "devanagari": "पूर",
+          "iast": "pūra",
+          "meaning": "flood"
+        },
+        {
+          "devanagari": "मज्जत्",
+          "iast": "majjat",
+          "meaning": "immersed, bathed"
+        },
+        {
+          "devanagari": "ब्रह्माण्ड",
+          "iast": "brahmāṇḍa",
+          "meaning": "cosmic egg, universe"
+        },
+        {
+          "devanagari": "मण्डल",
+          "iast": "maṇḍala",
+          "meaning": "sphere"
+        }
+      ],
+      "commentary": "The red glow that began as the ornament of her body now overflows and fills the Brahmāṇḍa. The universe is not outside her light but immersed in it, as a lotus is bathed in dawn. The first stage of the physical portrait closes by expanding from her person to the whole world.",
+      "categoryTags": [
+        "gross-form",
+        "radiance",
+        "Srishti"
+      ]
+    },
+    {
+      "id": 13,
+      "shlokaNumber": 4,
+      "devanagari": "चम्पकाशोकपुन्नागसौगन्धिकलसत्कचा",
+      "iast": "Campakāśokapunnāgasaugandhikalasatkacā",
+      "mantraForm": "Oṃ Campakāśokapunnāgasaugandhikalasatkacāyai Namaḥ",
+      "mantraFormDevanagari": "ॐ चम्पकाशोकपुन्नागसौगन्धिकलसत्कचायै नमः",
+      "meaning": "Whose hair gleams with campaka, aśoka, punnāga and saugandhika blossoms",
+      "wordBreakdown": [
+        {
+          "devanagari": "चम्पक",
+          "iast": "campaka",
+          "meaning": "magnolia champaca"
+        },
+        {
+          "devanagari": "अशोक",
+          "iast": "aśoka",
+          "meaning": "aśoka tree blossom"
+        },
+        {
+          "devanagari": "पुन्नाग",
+          "iast": "punnāga",
+          "meaning": "Calophyllum flower"
+        },
+        {
+          "devanagari": "सौगन्धिक",
+          "iast": "saugandhika",
+          "meaning": "fragrant water-lily"
+        },
+        {
+          "devanagari": "लसत्",
+          "iast": "lasat",
+          "meaning": "gleaming"
+        },
+        {
+          "devanagari": "कच",
+          "iast": "kaca",
+          "meaning": "hair"
+        }
+      ],
+      "commentary": "From this verse the description proceeds from the crown downward, the traditional order for dhyāna on a form (keśādi-pādānta). Each flower is named for its fragrance and colour, making the Mother's hair a garden. The sequence also teaches the method of visualisation: part by part, from head to foot.",
+      "categoryTags": [
+        "gross-form",
+        "adornment"
+      ]
+    },
+    {
+      "id": 14,
+      "shlokaNumber": 4,
+      "devanagari": "कुरुविन्दमणिश्रेणीकनत्कोटीरमण्डिता",
+      "iast": "Kuruvindamaṇiśreṇīkanatkoṭīramaṇḍitā",
+      "mantraForm": "Oṃ Kuruvindamaṇiśreṇīkanatkoṭīramaṇḍitāyai Namaḥ",
+      "mantraFormDevanagari": "ॐ कुरुविन्दमणिश्रेणीकनत्कोटीरमण्डितायै नमः",
+      "meaning": "Adorned with a crown blazing with rows of ruby-gems",
+      "wordBreakdown": [
+        {
+          "devanagari": "कुरुविन्द",
+          "iast": "kuruvinda",
+          "meaning": "ruby"
+        },
+        {
+          "devanagari": "मणि",
+          "iast": "maṇi",
+          "meaning": "gem"
+        },
+        {
+          "devanagari": "श्रेणी",
+          "iast": "śreṇī",
+          "meaning": "row, series"
+        },
+        {
+          "devanagari": "कनत्",
+          "iast": "kanat",
+          "meaning": "glittering"
+        },
+        {
+          "devanagari": "कोटीर",
+          "iast": "koṭīra",
+          "meaning": "crown"
+        },
+        {
+          "devanagari": "मण्डिता",
+          "iast": "maṇḍitā",
+          "meaning": "adorned"
+        }
+      ],
+      "commentary": "The crown (koṭīra) crowns the hair of the previous name. Its red gems echo her complexion, so the whole figure is chromatically unified in red and gold — the visual signature of Lalitā, in contrast to the white of Sarasvatī or the dark of Kālī.",
+      "categoryTags": [
+        "gross-form",
+        "adornment"
+      ]
+    },
+    {
+      "id": 15,
+      "shlokaNumber": 5,
+      "devanagari": "अष्टमीचन्द्रविभ्राजदलिकस्थलशोभिता",
+      "iast": "Aṣṭamīcandravibhrājadalikasthalaśobhitā",
+      "mantraForm": "Oṃ Aṣṭamīcandravibhrājadalikasthalaśobhitāyai Namaḥ",
+      "mantraFormDevanagari": "ॐ अष्टमीचन्द्रविभ्राजदलिकस्थलशोभितायै नमः",
+      "meaning": "Whose forehead shines like the half-moon of the eighth lunar day",
+      "wordBreakdown": [
+        {
+          "devanagari": "अष्टमीचन्द्र",
+          "iast": "aṣṭamī-candra",
+          "meaning": "the moon of the eighth tithi (half-moon)"
+        },
+        {
+          "devanagari": "विभ्राजत्",
+          "iast": "vibhrājat",
+          "meaning": "shining"
+        },
+        {
+          "devanagari": "अलिकस्थल",
+          "iast": "alika-sthala",
+          "meaning": "the region of the forehead"
+        },
+        {
+          "devanagari": "शोभिता",
+          "iast": "śobhitā",
+          "meaning": "beautified"
+        }
+      ],
+      "commentary": "Her forehead is a crescent-bounded half-moon, neither waxing nor waning in excess. Tradition hears in this a reference to the Ājñā region, where the inner moon is contemplated, and to the balance of the two halves of the lunar fortnight held in perfect symmetry.",
+      "categoryTags": [
+        "gross-form",
+        "face"
+      ]
+    },
+    {
+      "id": 16,
+      "shlokaNumber": 5,
+      "devanagari": "मुखचन्द्रकलङ्काभमृगनाभिविशेषका",
+      "iast": "Mukhacandrakalaṅkābhamṛganābhiviśeṣakā",
+      "mantraForm": "Oṃ Mukhacandrakalaṅkābhamṛganābhiviśeṣakāyai Namaḥ",
+      "mantraFormDevanagari": "ॐ मुखचन्द्रकलङ्काभमृगनाभिविशेषकायै नमः",
+      "meaning": "Whose musk-mark is like the dark spot on the moon of her face",
+      "wordBreakdown": [
+        {
+          "devanagari": "मुखचन्द्र",
+          "iast": "mukha-candra",
+          "meaning": "moon-like face"
+        },
+        {
+          "devanagari": "कलङ्क",
+          "iast": "kalaṅka",
+          "meaning": "spot, blemish"
+        },
+        {
+          "devanagari": "आभ",
+          "iast": "ābha",
+          "meaning": "resembling"
+        },
+        {
+          "devanagari": "मृगनाभि",
+          "iast": "mṛganābhi",
+          "meaning": "musk"
+        },
+        {
+          "devanagari": "विशेषक",
+          "iast": "viśeṣaka",
+          "meaning": "decorative mark, tilaka"
+        }
+      ],
+      "commentary": "The tilaka of musk is likened to the lunar “stain” — yet here the spot is not a flaw but the one touch of darkness that sets off the brilliance of the face. The poetic conceit allows a quiet theological hint: even a mark of limitation, in her, becomes ornament.",
+      "categoryTags": [
+        "gross-form",
+        "face"
+      ]
+    },
+    {
+      "id": 17,
+      "shlokaNumber": 6,
+      "devanagari": "वदनस्मरमाङ्गल्यगृहतोरणचिल्लिका",
+      "iast": "Vadanasmaramāṅgalyagṛhatoraṇacillikā",
+      "mantraForm": "Oṃ Vadanasmaramāṅgalyagṛhatoraṇacillikāyai Namaḥ",
+      "mantraFormDevanagari": "ॐ वदनस्मरमाङ्गल्यगृहतोरणचिल्लिकायै नमः",
+      "meaning": "Whose brows are festive archways at the gateway of the auspicious house of Kāma that is her face",
+      "wordBreakdown": [
+        {
+          "devanagari": "वदन",
+          "iast": "vadana",
+          "meaning": "face"
+        },
+        {
+          "devanagari": "स्मर",
+          "iast": "smara",
+          "meaning": "Kāma, god of love"
+        },
+        {
+          "devanagari": "माङ्गल्य",
+          "iast": "māṅgalya",
+          "meaning": "auspicious"
+        },
+        {
+          "devanagari": "गृह",
+          "iast": "gṛha",
+          "meaning": "house"
+        },
+        {
+          "devanagari": "तोरण",
+          "iast": "toraṇa",
+          "meaning": "arched gateway"
+        },
+        {
+          "devanagari": "चिल्लिका",
+          "iast": "cillikā",
+          "meaning": "eyebrows"
+        }
+      ],
+      "commentary": "Her face is likened to the auspicious dwelling of Kāma, and her curved eyebrows to the garlanded arches hung over its door at a festival. The image invites entry: the beauty of the face is the gateway through which the mind is drawn inward.",
+      "categoryTags": [
+        "gross-form",
+        "face"
+      ]
+    },
+    {
+      "id": 18,
+      "shlokaNumber": 6,
+      "devanagari": "वक्त्रलक्ष्मीपरीवाहचलन्मीनाभलोचना",
+      "iast": "Vaktralakṣmīparīvāhacalanmīnābhalocanā",
+      "mantraForm": "Oṃ Vaktralakṣmīparīvāhacalanmīnābhalocanāyai Namaḥ",
+      "mantraFormDevanagari": "ॐ वक्त्रलक्ष्मीपरीवाहचलन्मीनाभलोचनायै नमः",
+      "meaning": "Whose eyes are like fish darting in the overflowing stream of her facial beauty",
+      "wordBreakdown": [
+        {
+          "devanagari": "वक्त्रलक्ष्मी",
+          "iast": "vaktra-lakṣmī",
+          "meaning": "beauty of the face"
+        },
+        {
+          "devanagari": "परीवाह",
+          "iast": "parīvāha",
+          "meaning": "overflowing stream"
+        },
+        {
+          "devanagari": "चलत्",
+          "iast": "calat",
+          "meaning": "moving"
+        },
+        {
+          "devanagari": "मीन",
+          "iast": "mīna",
+          "meaning": "fish"
+        },
+        {
+          "devanagari": "आभ",
+          "iast": "ābha",
+          "meaning": "resembling"
+        },
+        {
+          "devanagari": "लोचना",
+          "iast": "locanā",
+          "meaning": "eyes"
+        }
+      ],
+      "commentary": "Her eyes dart like fish (mīna) in the channel of beauty overflowing from her face. Fish are said to sleep with open eyes and to nurture their young by sight alone — which is why the tradition calls her gaze, like the fish's, a source of grace (dṛk-dīkṣā) for devotees.",
+      "categoryTags": [
+        "gross-form",
+        "face",
+        "compassion"
+      ]
+    },
+    {
+      "id": 19,
+      "shlokaNumber": 7,
+      "devanagari": "नवचम्पकपुष्पाभनासादण्डविराजिता",
+      "iast": "Navacampakapuṣpābhanāsādaṇḍavirājitā",
+      "mantraForm": "Oṃ Navacampakapuṣpābhanāsādaṇḍavirājitāyai Namaḥ",
+      "mantraFormDevanagari": "ॐ नवचम्पकपुष्पाभनासादण्डविराजितायै नमः",
+      "meaning": "Graced with a nose like a fresh campaka bud",
+      "wordBreakdown": [
+        {
+          "devanagari": "नव",
+          "iast": "nava",
+          "meaning": "fresh"
+        },
+        {
+          "devanagari": "चम्पकपुष्प",
+          "iast": "campaka-puṣpa",
+          "meaning": "campaka flower"
+        },
+        {
+          "devanagari": "आभ",
+          "iast": "ābha",
+          "meaning": "resembling"
+        },
+        {
+          "devanagari": "नासादण्ड",
+          "iast": "nāsā-daṇḍa",
+          "meaning": "the shaft of the nose"
+        },
+        {
+          "devanagari": "विराजिता",
+          "iast": "virājitā",
+          "meaning": "shining, graced"
+        }
+      ],
+      "commentary": "The straight, delicate ridge of the nose is compared to an unopened campaka bud. The comparison also carries a point of lore: bees are said never to alight on the campaka, so it is the image of a beauty that attracts without being tasted — an apt figure for the Mother who is approached by devotion, not possessed.",
+      "categoryTags": [
+        "gross-form",
+        "face"
+      ]
+    },
+    {
+      "id": 20,
+      "shlokaNumber": 7,
+      "devanagari": "ताराकान्तितिरस्कारिनासाभरणभासुरा",
+      "iast": "Tārākāntitiraskārināsābharaṇabhāsurā",
+      "mantraForm": "Oṃ Tārākāntitiraskārināsābharaṇabhāsurāyai Namaḥ",
+      "mantraFormDevanagari": "ॐ ताराकान्तितिरस्कारिनासाभरणभासुरायै नमः",
+      "meaning": "Shining with a nose-jewel that outshines the stars",
+      "wordBreakdown": [
+        {
+          "devanagari": "तारा",
+          "iast": "tārā",
+          "meaning": "star"
+        },
+        {
+          "devanagari": "कान्ति",
+          "iast": "kānti",
+          "meaning": "lustre"
+        },
+        {
+          "devanagari": "तिरस्कारि",
+          "iast": "tiraskāri",
+          "meaning": "putting to shame, eclipsing"
+        },
+        {
+          "devanagari": "नासाआभरण",
+          "iast": "nāsā-ābharaṇa",
+          "meaning": "nose-ornament"
+        },
+        {
+          "devanagari": "भासुरा",
+          "iast": "bhāsurā",
+          "meaning": "brilliant"
+        }
+      ],
+      "commentary": "Her nose-jewel eclipses the stars. Commentators note that “tārā” can also refer to the bright planet Venus and to the pearl, so the verse yields a layered image of a single point of white brilliance against the red of her complexion.",
+      "categoryTags": [
+        "gross-form",
+        "adornment"
+      ]
+    },
+    {
+      "id": 21,
+      "shlokaNumber": 8,
+      "devanagari": "कदम्बमञ्जरीकॢप्तकर्णपूरमनोहरा",
+      "iast": "Kadambamañjarīkḷptakarṇapūramanoharā",
+      "mantraForm": "Oṃ Kadambamañjarīkḷptakarṇapūramanoharāyai Namaḥ",
+      "mantraFormDevanagari": "ॐ कदम्बमञ्जरीकॢप्तकर्णपूरमनोहरायै नमः",
+      "meaning": "Captivating with ear-ornaments fashioned from kadamba blossom-clusters",
+      "wordBreakdown": [
+        {
+          "devanagari": "कदम्ब",
+          "iast": "kadamba",
+          "meaning": "kadamba tree"
+        },
+        {
+          "devanagari": "मञ्जरी",
+          "iast": "mañjarī",
+          "meaning": "cluster of blossoms"
+        },
+        {
+          "devanagari": "कॢप्त",
+          "iast": "kḷpta",
+          "meaning": "fashioned, made"
+        },
+        {
+          "devanagari": "कर्णपूर",
+          "iast": "karṇapūra",
+          "meaning": "ear-ornament"
+        },
+        {
+          "devanagari": "मनोहरा",
+          "iast": "manoharā",
+          "meaning": "heart-stealing"
+        }
+      ],
+      "commentary": "The kadamba is dear to the Mother — the Kadamba forest is one of her chief abodes in the Purāṇic geography of Śrīpura. Wearing its blossoms at her ears marks her closeness to that sacred grove and anticipates the many names that refer to the Kadamba-vana.",
+      "categoryTags": [
+        "gross-form",
+        "adornment"
+      ]
+    },
+    {
+      "id": 22,
+      "shlokaNumber": 8,
+      "devanagari": "ताटङ्कयुगलीभूततपनोडुपमण्डला",
+      "iast": "Tāṭaṅkayugalībhūtatapanoḍupamaṇḍalā",
+      "mantraForm": "Oṃ Tāṭaṅkayugalībhūtatapanoḍupamaṇḍalāyai Namaḥ",
+      "mantraFormDevanagari": "ॐ ताटङ्कयुगलीभूततपनोडुपमण्डलायै नमः",
+      "meaning": "The discs of the sun and moon serve as her twin ear-rings",
+      "wordBreakdown": [
+        {
+          "devanagari": "ताटङ्क",
+          "iast": "tāṭaṅka",
+          "meaning": "ear-ring"
+        },
+        {
+          "devanagari": "युगलीभूत",
+          "iast": "yugalībhūta",
+          "meaning": "become a pair"
+        },
+        {
+          "devanagari": "तपन",
+          "iast": "tapana",
+          "meaning": "sun"
+        },
+        {
+          "devanagari": "उडुप",
+          "iast": "uḍupa",
+          "meaning": "moon (lord of the stars)"
+        },
+        {
+          "devanagari": "मण्डल",
+          "iast": "maṇḍala",
+          "meaning": "disc"
+        }
+      ],
+      "commentary": "Sun and moon, the two great luminaries, are her ear-rings: time itself (day and night, Sūrya and Candra) is an ornament that she wears. Esoterically they are the two nāḍīs, Iḍā and Piṅgalā, which flank the central channel along which the Kuṇḍalinī rises.",
+      "categoryTags": [
+        "gross-form",
+        "adornment",
+        "subtle-form"
+      ]
+    },
+    {
+      "id": 23,
+      "shlokaNumber": 9,
+      "devanagari": "पद्मरागशिलादर्शपरिभाविकपोलभूः",
+      "iast": "Padmarāgaśilādarśaparibhāvikapolabhūḥ",
+      "mantraForm": "Oṃ Padmarāgaśilādarśaparibhāvikapolabhuve Namaḥ",
+      "mantraFormDevanagari": "ॐ पद्मरागशिलादर्शपरिभाविकपोलभुवे नमः",
+      "meaning": "Whose cheeks surpass a mirror of ruby",
+      "wordBreakdown": [
+        {
+          "devanagari": "पद्मराग",
+          "iast": "padmarāga",
+          "meaning": "ruby"
+        },
+        {
+          "devanagari": "शिला",
+          "iast": "śilā",
+          "meaning": "stone"
+        },
+        {
+          "devanagari": "आदर्श",
+          "iast": "ādarśa",
+          "meaning": "mirror"
+        },
+        {
+          "devanagari": "परिभावि",
+          "iast": "paribhāvi",
+          "meaning": "surpassing"
+        },
+        {
+          "devanagari": "कपोलभूः",
+          "iast": "kapola-bhūḥ",
+          "meaning": "region of the cheeks"
+        }
+      ],
+      "commentary": "A mirror cut from ruby would be both red and reflective; her cheek is more lustrous still. The name ends in -bhūḥ (a long-ū stem), so its mantra form takes the dative -bhuve (Padmarāga…kapolabhuve) rather than the usual -āyai — worth noting for correct recitation.",
+      "categoryTags": [
+        "gross-form",
+        "face"
+      ]
+    },
+    {
+      "id": 24,
+      "shlokaNumber": 9,
+      "devanagari": "नवविद्रुमबिम्बश्रीन्यक्कारिरदनच्छदा",
+      "iast": "Navavidrumabimbaśrīnyakkāriradanacchadā",
+      "mantraForm": "Oṃ Navavidrumabimbaśrīnyakkāriradanacchadāyai Namaḥ",
+      "mantraFormDevanagari": "ॐ नवविद्रुमबिम्बश्रीन्यक्कारिरदनच्छदायै नमः",
+      "meaning": "Whose lips put to shame the beauty of fresh coral and the bimba fruit",
+      "wordBreakdown": [
+        {
+          "devanagari": "नव",
+          "iast": "nava",
+          "meaning": "fresh"
+        },
+        {
+          "devanagari": "विद्रुम",
+          "iast": "vidruma",
+          "meaning": "coral"
+        },
+        {
+          "devanagari": "बिम्ब",
+          "iast": "bimba",
+          "meaning": "bimba fruit (Coccinia)"
+        },
+        {
+          "devanagari": "श्री",
+          "iast": "śrī",
+          "meaning": "beauty"
+        },
+        {
+          "devanagari": "न्यक्कारि",
+          "iast": "nyakkāri",
+          "meaning": "humiliating, surpassing"
+        },
+        {
+          "devanagari": "रदनछदा",
+          "iast": "radana-chadā",
+          "meaning": "lips (covering of the teeth)"
+        }
+      ],
+      "commentary": "Coral and the red bimba fruit are the standard comparisons for red lips; here both are put to shame. Because the lips are the seat of speech, the tradition also hears in this the red radiance of Vāk, the Mother as the source of all utterance.",
+      "categoryTags": [
+        "gross-form",
+        "face"
+      ]
+    },
+    {
+      "id": 25,
+      "shlokaNumber": 10,
+      "devanagari": "शुद्धविद्याङ्कुराकारद्विजपङ्क्तिद्वयोज्ज्वला",
+      "iast": "Śuddhavidyāṅkurākāradvijapaṅktidvayojjvalā",
+      "mantraForm": "Oṃ Śuddhavidyāṅkurākāradvijapaṅktidvayojjvalāyai Namaḥ",
+      "mantraFormDevanagari": "ॐ शुद्धविद्याङ्कुराकारद्विजपङ्क्तिद्वयोज्ज्वलायै नमः",
+      "meaning": "Brilliant with two rows of teeth like the sprouts of Śuddhavidyā",
+      "wordBreakdown": [
+        {
+          "devanagari": "शुद्धविद्या",
+          "iast": "śuddhavidyā",
+          "meaning": "pure knowledge"
+        },
+        {
+          "devanagari": "अङ्कुर",
+          "iast": "aṅkura",
+          "meaning": "sprout"
+        },
+        {
+          "devanagari": "आकार",
+          "iast": "ākāra",
+          "meaning": "shape"
+        },
+        {
+          "devanagari": "द्विजपङ्क्ति",
+          "iast": "dvija-paṅkti",
+          "meaning": "row of teeth (the twice-born)"
+        },
+        {
+          "devanagari": "द्वय",
+          "iast": "dvaya",
+          "meaning": "pair"
+        },
+        {
+          "devanagari": "उज्ज्वला",
+          "iast": "ujjvalā",
+          "meaning": "radiant"
+        }
+      ],
+      "commentary": "“Dvija” — twice-born — is a word for teeth, which are born twice. Her teeth are compared to the first sprouts of Śuddhavidyā, the pure knowledge in which Śrīvidyā culminates. Her smile is thus a seed-form of the same knowledge by which the aspirant is liberated.",
+      "categoryTags": [
+        "gross-form",
+        "face",
+        "subtle-form"
+      ]
+    },
+    {
+      "id": 26,
+      "shlokaNumber": 10,
+      "devanagari": "कर्पूरवीटिकामोदसमाकर्षिदिगन्तरा",
+      "iast": "Karpūravīṭikāmodasamākarṣidigantarā",
+      "mantraForm": "Oṃ Karpūravīṭikāmodasamākarṣidigantarāyai Namaḥ",
+      "mantraFormDevanagari": "ॐ कर्पूरवीटिकामोदसमाकर्षिदिगन्तरायै नमः",
+      "meaning": "The fragrance of whose camphor-scented betel draws in every quarter of space",
+      "wordBreakdown": [
+        {
+          "devanagari": "कर्पूर",
+          "iast": "karpūra",
+          "meaning": "camphor"
+        },
+        {
+          "devanagari": "वीटिका",
+          "iast": "vīṭikā",
+          "meaning": "folded betel-leaf"
+        },
+        {
+          "devanagari": "आमोद",
+          "iast": "āmoda",
+          "meaning": "fragrance"
+        },
+        {
+          "devanagari": "समाकर्षि",
+          "iast": "samākarṣi",
+          "meaning": "attracting"
+        },
+        {
+          "devanagari": "दिगन्तर",
+          "iast": "digantara",
+          "meaning": "all the directions"
+        }
+      ],
+      "commentary": "Chewing the camphor-scented betel is the royal pleasure of an empress, and its fragrance fills the ten directions. The scent that draws all beings in is read as her grace (anugraha), which, like fragrance, reaches those who do not yet know its source.",
+      "categoryTags": [
+        "gross-form",
+        "adornment",
+        "radiance"
+      ]
+    }
+  ]
+}
