@@ -16,7 +16,6 @@ npm run typecheck && npm run build
 | **Archana mode** | One card per name: Devanagari, IAST, `Oṃ … Namaḥ` mantra form, word-for-word chips, meaning, commentary, tags. Filter by bookmarks / favorites / notes. |
 | **Sticky controls** | Toggle Devanagari · IAST · English · Commentary, A−/A+ font size (85–200%), light / dark / system theme. |
 | **Search** | `Ctrl/⌘ + K`. `#42` jumps to a number; otherwise matches IAST (diacritic-insensitive), Devanagari, English meaning, tags and commentary. ↑↓ ↵ esc. |
-| **Auto-scroll** | Floating play/pause teleprompter, 5–200 px/s; pauses if you scroll manually; offers to log a round at the end. |
 | **Sādhanā** (`/sadhana`) | Bookmarks, favorites, notes, names-read progress + resume, daily round log, current/longest streak, 28-day heat strip. |
 
 ## Data

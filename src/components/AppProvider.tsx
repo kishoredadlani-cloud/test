@@ -16,15 +16,13 @@ export interface Settings {
   showCommentary: boolean;
   /** index into FONT_SCALES */
   fontSize: number;
-  /** auto-scroll speed, px per second */
-  scrollSpeed: number;
 }
 
 export const FONT_SCALES = [0.85, 1, 1.15, 1.3, 1.5, 1.75, 2];
 export const DEFAULT_SETTINGS: Settings = {
   theme: "system", mode: "stotra",
   showDevanagari: true, showIast: true, showMeaning: true, showCommentary: true,
-  fontSize: 1, scrollSpeed: 30,
+  fontSize: 1,
 };
 
 export interface Sadhana {

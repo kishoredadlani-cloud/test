@@ -5,7 +5,6 @@ import { FONT_SCALES, useApp } from "./AppProvider";
 import { ControlBar } from "./ControlBar";
 import { StotraView } from "./StotraView";
 import { ArchanaView, type ArchanaFilter } from "./ArchanaView";
-import { AutoScrollBar } from "./AutoScrollBar";
 import { loadedNamaCount, meta, TOTAL_NAMAS } from "@/lib/data";
 
 /** Find the element that shows nama `id` in the current view (a card, or the verse containing it). */
@@ -83,7 +82,7 @@ export function Reader() {
   return (
     <>
       <ControlBar />
-      <div className="mx-auto max-w-3xl px-4 pb-32" style={{ fontSize: `${FONT_SCALES[settings.fontSize]}rem` }}>
+      <div className="mx-auto max-w-3xl px-4 pb-16" style={{ fontSize: `${FONT_SCALES[settings.fontSize]}rem` }}>
         <section className="pt-8 text-center">
           <p className="deva text-[1.9em] font-semibold text-crimson">{meta.titleDevanagari}</p>
           <h1 className="font-display text-[1.6em] font-semibold text-saffron">{meta.title}</h1>
@@ -110,7 +109,6 @@ export function Reader() {
           </>
         )}
       </div>
-      <AutoScrollBar />
     </>
   );
 }
